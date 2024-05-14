@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ivory;
+}
+
+.page {
+    background-color: ivory;
+    width: 98%;
+    margin: auto;
+    /* border: 1px solid black ; */
+}
+
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+
+}
+
+.info img {
+    width: 220px;
+    border-radius: 10%;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    top: -10px;
+    rotate: 10deg;
+    transition: rotate 0.5s linear;
+}
+
+.info img:hover {
+    rotate: 0deg;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ul li {
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    width: 60%;
+    height: auto;
+    line-height: 1.5em;
+    /* border: 1px solid black; */
+    font-size: 1.1em;
+}
+
+.section-content h1 {
+    position: relative;
+    top: 4em;
+
+}
+#
+.skill_section {
+    list-style-type: none;
+}
+
+.skill_section li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.skill_section h2 {
+    top: 4em;
+}
+#interests ul {
+    width:50%;
+    list-style-type:none;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.interest-contnent {
+    list-style-type: none;
+}
+
+.interest-contnent h2 {
+    top: 4em;
+}
+
+.interest-contnent li {
+    
+    margin-right: 10px;
+}
+.container {
+    display: flex;
+}
+box {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20%;
+}
+.project-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: 30%; /* Adjust width as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .project a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border radius for image */
+  }
+  
+  .description {
+    text-align: center;
+    margin-top: 8px;
+  }
+.contact-content{
+    justify-content: center;
+    align-items: center;
+}
+.contact-content p{
+width: 60%;
+height: auto;
+line-height: 1.5em;
+/* border: 1px solid black; */
+font-size: 1.1em;
+}
